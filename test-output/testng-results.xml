@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="0" failed="0" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-10-01T19:38:35Z" name="Default suite" finished-at="2018-10-01T19:38:35Z" duration-ms="65">
+    <groups>
+    </groups>
+    <test started-at="2018-10-01T19:38:35Z" name="Default test" finished-at="2018-10-01T19:38:35Z" duration-ms="65">
+      <class name="abc.Annitatios">
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:abc.Annitatios@fa36558]" started-at="2018-10-02T01:08:35Z" name="beforetest" finished-at="2018-10-02T01:08:35Z" duration-ms="0" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at abc.Generics.getelement(Generics.java:51)
+	at abc.Annitatios.beforetest(Annitatios.java:19)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:abc.Annitatios@fa36558]" started-at="2018-10-02T01:08:35Z" name="beforemethod" finished-at="2018-10-02T01:08:35Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="test()[pri:0, instance:abc.Annitatios@fa36558]" started-at="2018-10-02T01:08:35Z" name="test" finished-at="2018-10-02T01:08:35Z" duration-ms="1" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:abc.Annitatios@fa36558]" started-at="2018-10-02T01:08:35Z" name="aftermethod" finished-at="2018-10-02T01:08:35Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:abc.Annitatios@fa36558]" started-at="2018-10-02T01:08:35Z" name="beforemethod" finished-at="2018-10-02T01:08:35Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="test1()[pri:0, instance:abc.Annitatios@fa36558]" started-at="2018-10-02T01:08:35Z" name="test1" finished-at="2018-10-02T01:08:35Z" duration-ms="2" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:abc.Annitatios@fa36558]" started-at="2018-10-02T01:08:35Z" name="aftermethod" finished-at="2018-10-02T01:08:35Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:abc.Annitatios@fa36558]" started-at="2018-10-02T01:08:35Z" name="aftertest" finished-at="2018-10-02T01:08:35Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- abc.Annitatios -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
